@@ -57,6 +57,24 @@ header {
     width: 100%;
 }
 
+@keyframes updown {
+    0% {
+        transform: translate(0, 3px);
+    }
+
+    50% {
+        transform: translate(0, -10px);
+    }
+
+    100% {
+        transform: translate(0, 3px);
+    }
+}
+
+.logo_link {
+    animation: updown 2s ease infinite;
+}
+
 .header_button_box {
     display: flex;
     column-gap: 32px;
@@ -582,6 +600,18 @@ figure {
 .fa-location-dot {
     color: var(--color-offwhite);
     font-size: 80px;
+}
+
+.fa-mobile-screen-button:hover {
+    color: var(--color-blue);
+}
+
+.fa-envelope:hover {
+    color: var(--color-blue);
+}
+
+.fa-location-dot:hover {
+    color: var(--color-blue);
 }
 
 /* contact sub section2 */
