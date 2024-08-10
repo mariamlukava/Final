@@ -10,6 +10,16 @@
         column-gap: 16px;
     }
 
+    .logo_link img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_button {
+        width: 32px;
+        height: 32px;
+    }
+
     /* index_section1 */
     .index_section1 {
         padding-bottom: 416px;
