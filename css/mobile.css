@@ -1,0 +1,158 @@
+/* 480px-320px */
+@media (max-width: 481px) {
+
+    /* header */
+    header {
+        padding-inline: 20px;
+    }
+
+    .header_button_box {
+        column-gap: 16px;
+    }
+
+    /* index_section1 */
+    .index_section1 {
+        padding-bottom: 416px;
+    }
+
+    .index_section1_div {
+        column-gap: 16px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* index_section2 */
+
+    .index_section2 {
+        padding-left: 20px;
+        padding-block: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        row-gap: 40px;
+        padding-block: 32px;
+        align-items: center;
+    }
+
+    .footer_div {
+        align-items: center;
+    }
+
+    /* .footer_title {
+        text-align: center;
+    } */
+
+    .footer_title::after {
+        margin: auto;
+    }
+
+    /* catalog_page */
+    .catalog_section {
+        padding: 32px 20px;
+    }
+
+    .filter_delete {
+        display: none;
+    }
+
+
+
+/* FIX BUTTONS */
+
+
+
+    /* .sort_delete {
+        display: none;
+    } */
+
+.delete_button_text {
+    display: none;
+}
+
+
+    
+
+    .sort_button {
+        width: 36px;
+        height: 32px;
+    }
+
+
+    .mobile_delete {
+        display: none;
+    }
+
+    .page_turn {
+        column-gap: 45px;
+    }
+
+
+
+
+
+
+/* FIX BUTTONS */
+
+
+    .previous,
+    .next {
+        font-size: 0;
+        overflow: hidden;
+        /* line-height: 0; */
+        /* text-indent: 100%; 
+        white-space: nowrap;  */
+        /* overflow: hidden; 
+        padding: 8px 14px; */
+
+        width: 52px;
+        height: 40px;
+       
+
+    }
+
+/* .filter_img {
+   margin: auto;
+} */
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 321px) {
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+
+    /* index_section1 */
+    .index_section1 {
+        padding-bottom: 256px;
+    }
+
+    /* index_section2 */
+
+    .index_section2 {
+        padding-left: 8px;
+    }
+
+      /* catalog_page */
+      .catalog_section {
+        padding-inline: 8px;
+    }
+}

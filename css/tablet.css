@@ -1,0 +1,68 @@
+/* 768px-481px */
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* index_section1 */
+
+    .index_section1 {
+        padding-block: 32px 412px;
+    }
+
+    /* index_section2 */
+
+    .index_section2 {
+        padding-left: 32px;
+        padding-block: 48px;
+    }
+
+    /* footer */
+    footer {
+        padding-inline: calc(32 / 744 * 100%);
+    }
+
+    /* catalog_page */
+
+    .catalog_section {
+        padding: 48px 32px;
+    }
+
+    .tablet_delete {
+        display: none;
+    }
+
+    /* contact_page */
+
+    .contact_section {
+        padding: 48px calc(32 / 744 * 100%);
+        justify-content: center;
+    }
+
+    .contact_section_box {
+        /* width: calc(680 / 744 * 100%); */
+        width: 100%;
+    }
+
+    .contact_sub_section2 form {
+        width: 50%;
+    }
+
+    .map_article {
+        width: 50%;
+    }
+
+    .contact_sub_section2 iframe {
+        width: 100%
+    }
+}
+
+@media (max-width: 691px) {
+
+    /* footer */
+    footer {
+        column-gap: 45px;
+    }
+}
