@@ -50,6 +50,11 @@
     .footer_title::after {
         margin: auto;
     }
+    .footer_ul,
+    .footer_contact_ul {
+        text-align: center;
+    }
+
 
     /* catalog_page */
     .catalog_section {
