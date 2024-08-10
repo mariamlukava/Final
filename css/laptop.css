@@ -22,7 +22,6 @@
     /* header */
     header {
         padding-inline: 45px;
-
     }
 
     .burger {
@@ -49,44 +48,34 @@
         left: 0;
     }
 
-
     /* footer */
-
     footer {
         padding-inline: calc(98 / 1024 * 100%);
     }
 
     /* catalog_page */
-  
     .laptop_delete {
         display: none;
     }
 
     /* contact_page */
-
     .contact_section {
         padding-inline: calc(45 / 1024 * 100%);
     }
-
 }
 
 @media (max-width: 1022px) {
-    /* catalog_page */
 
+    /* catalog_page */
     .catalog_section {
         padding-inline: 45px;
     }
-
 }
 
-
-
-
-
 @media (max-width: 950px) {
-      /* footer */
+    /* footer */
 
-      footer {
+    footer {
         column-gap: 149px;
     }
 }

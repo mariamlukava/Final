@@ -7,13 +7,11 @@
     }
 
     /* index_section1 */
-
     .index_section1 {
         padding-block: 32px 412px;
     }
 
     /* index_section2 */
-
     .index_section2 {
         padding-left: 32px;
         padding-block: 48px;
@@ -25,7 +23,6 @@
     }
 
     /* catalog_page */
-
     .catalog_section {
         padding: 48px 32px;
     }
@@ -35,7 +32,6 @@
     }
 
     /* contact_page */
-
     .contact_section {
         padding: 48px calc(32 / 744 * 100%);
         justify-content: center;
