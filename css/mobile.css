@@ -68,7 +68,7 @@
 
 
 
-/* FIX BUTTONS */
+    /* FIX BUTTONS */
 
 
 
@@ -76,12 +76,12 @@
         display: none;
     } */
 
-.delete_button_text {
-    display: none;
-}
+    .delete_button_text {
+        display: none;
+    }
 
 
-    
+
 
     .sort_button {
         width: 36px;
@@ -102,13 +102,13 @@
 
 
 
-/* FIX BUTTONS */
+    /* FIX BUTTONS */
 
 
     .previous,
     .next {
-        font-size: 0;
-        overflow: hidden;
+        /* font-size: 0;
+        overflow: hidden; */
         /* line-height: 0; */
         /* text-indent: 100%; 
         white-space: nowrap;  */
@@ -117,14 +117,51 @@
 
         width: 52px;
         height: 40px;
-       
+
 
     }
 
-/* .filter_img {
-   margin: auto;
-} */
-    
+
+    /* contact_page */
+    .contact_section {
+        padding: 32px calc(20 / 480 * 100%);
+    }
+
+    .contact_sub_section1 {
+        justify-content: center;
+        column-gap: 24px;
+    }
+
+    .contact_info {
+        display: none;
+    }
+
+    .contact1 {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .fa-location-dot {
+        font-size: 24px;
+    }
+
+    .contact_sub_section2 {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .contact_sub_section2 form {
+        width: 100%;
+    }
+
+    .map_article {
+        width: 100%;
+        /* align-items: center; */
+    }
+
+    .map_article_nav {
+        justify-content: center;
+    }
 }
 
 
@@ -151,8 +188,13 @@
         padding-left: 8px;
     }
 
-      /* catalog_page */
-      .catalog_section {
+    /* catalog_page */
+    .catalog_section {
         padding-inline: 8px;
+    }
+
+    /* contact_page */
+    .contact_section {
+        padding-inline:calc(8 / 320 * 100%);
     }
 }

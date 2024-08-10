@@ -699,7 +699,10 @@ figure {
     font-size: 24px;
 }
 
-
+/* .location_button {
+    border: none;
+    background-color: transparent;
+} */
 .fa-location-dot {
     color: var(--color-offwhite);
     font-size: 80px;
